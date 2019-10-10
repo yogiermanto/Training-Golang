@@ -2,14 +2,19 @@ package model
 
 import "fmt"
 
-func siswa() {
-	var (
-		namaAdmin     string = "Admin1"
-		userNameAdmin string = "Test"
-		password      string = "123456"
-	)
+var (
+	//NamaSiswa bla bla
+	NamaSiswa string = "Admin1"
+	//UmurSiswa bla bla
+	UmurSiswa int = 45
+	//BahasaSiswa bla bla
+	BahasaSiswa string = "Inggris"
+)
 
-	fmt.Println(namaAdmin)
-	fmt.Println(userNameAdmin)
-	fmt.Println(password)
+// Siswa is representation of siswa
+func Siswa() {
+
+	fmt.Println(NamaSiswa)
+	fmt.Println(UmurSiswa)
+	fmt.Println(BahasaSiswa)
 }
